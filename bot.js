@@ -11,7 +11,7 @@ const client = new Client({
     GatewayIntentBits.MessageContent,
   ],
 });
-const BOT_TOKEN = "MTMzMDk1Mjk5Njg4Nzk4NjI5OA.Ghoq1N.967VeacOnBDCsRox_Aphmdr5MDu5N8DNe-2WaY";
+const BOT_TOKEN = "MTMzMDk1Mjk5Njg4Nzk4NjI5OA.GnJkya.tpqaIwiuCzasuTobms5QCnQaZl_dmdd3wBqKQs";
 const MONGO_URI = "mongodb://127.0.0.1:27017/short-url";
 
 connectToMongoDB(MONGO_URI)
@@ -55,4 +55,4 @@ client.on("messageCreate", async (message) => {
   }
 });
 
-client.login("MTMzMDk1Mjk5Njg4Nzk4NjI5OA.Ghoq1N.967VeacOnBDCsRox_Aphmdr5MDu5N8DNe-2WaY");
+client.login("MTMzMDk1Mjk5Njg4Nzk4NjI5OA.GnJkya.tpqaIwiuCzasuTobms5QCnQaZl_dmdd3wBqKQs");
